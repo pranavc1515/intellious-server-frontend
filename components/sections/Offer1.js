@@ -43,7 +43,7 @@ export default function Offer1() {
                                     <p className="pra-clr mb-xxl-6 mb-xl-5 mb-4">
                                         Our advanced expertise empowers service providers to remain at the forefront of the technology curve...
                                     </p>
-                                    <Link href="/contact" className="white-clr d-flex gap-4">
+                                    <Link href="/service-details?id=oss-bss" className="white-clr d-flex gap-4">
                                         Explore More
                                         <span className="rot60">
                                             <i className="fas fa-arrow-up white-clr" />
@@ -69,7 +69,7 @@ export default function Offer1() {
                                     <p className="pra-clr mb-xxl-6 mb-xl-5 mb-4">
                                         Our team is passionate about empowering organizations with the best Salesforce solutions to help them...
                                     </p>
-                                    <Link href="/contact" className="white-clr d-flex gap-4">
+                                    <Link href="/service-details?id=salesforce" className="white-clr d-flex gap-4">
                                         Explore More
                                         <span className="rot60">
                                             <i className="fas fa-arrow-up white-clr" />
@@ -95,7 +95,7 @@ export default function Offer1() {
                                     <p className="pra-clr mb-xxl-6 mb-xl-5 mb-4">
                                         In today's fast-paced world, businesses must continuously evolve to stay ahead of the competition. Our...
                                     </p>
-                                    <Link href="/contact" className="white-clr d-flex gap-4">
+                                    <Link href="/service-details?id=multi-cloud" className="white-clr d-flex gap-4">
                                         Explore More
                                         <span className="rot60">
                                             <i className="fas fa-arrow-up white-clr" />
@@ -121,7 +121,7 @@ export default function Offer1() {
                                     <p className="pra-clr mb-xxl-6 mb-xl-5 mb-4">
                                         Your ultimate future tech of storing information is what Blockchain offers. Take advantage of the...
                                     </p>
-                                    <Link href="/contact" className="white-clr d-flex gap-4">
+                                    <Link href="/service-details?id=blockchain" className="white-clr d-flex gap-4">
                                         Explore More
                                         <span className="rot60">
                                             <i className="fas fa-arrow-up white-clr" />
