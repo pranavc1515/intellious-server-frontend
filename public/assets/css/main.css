@@ -1206,7 +1206,7 @@ footer {
 }
 
 .hero-section-version1 {
-  background: url(../img/banner/hero-bg1.png) no-repeat center center;
+  background: url(../img/banner/hero-bg1.jpg) no-repeat center center;
   background-size: cover;
   padding: 290px 5px 30px;
   z-index: 1;
@@ -4451,7 +4451,7 @@ input.main-search-input::placeholder {
 }
 
 .watch-version01 {
-  background: url(../img/team/watch-bg01.png) no-repeat center center;
+  background: url(../img/team/watch-bg01.png) no-repeat center center !important;
   background-size: cover;
   padding: 300px 5px;
   background-attachment: fixed;

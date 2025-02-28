@@ -1,6 +1,5 @@
 
 import Link from "next/link"
-import VideoPopup from "../elements/VideoPopup"
 
 export default function Hero1() {
     return (
@@ -22,23 +21,24 @@ export default function Hero1() {
                                         <span className="designers" data-text="Intelligence" data-aos="zoom-in" data-aos-duration={2000}>Intelligence</span>
                                     </span>
                                 </h1>
-                                <VideoPopup style={1} />
+
                             </div>
                             <div className="hero-sponsor">
                                 <div className="sponsor-inner d-flex align-items-center gap-xxl-13 gap-xl-10 gap-lg-8 gap-md-6 gap-5 mb-xxl-10 mb-xl-7 mb-lg-6 mb-6">
                                     <Link href="/">
-                                        <img src="/assets/img/client/c1.png" alt="img" />
+                                        <img src="/assets/img/client/oracle.png" alt="img" />
                                     </Link>
                                     <Link href="/">
-                                        <img src="/assets/img/client/c2.png" alt="img" />
+                                        <img src="/assets/img/client/10.png" alt="img" />
                                     </Link>
                                     <Link href="/">
-                                        <img src="/assets/img/client/c3.png" alt="img" />
+                                        <span className="bg-white"> <img src="/assets/img/client/intm-logo-wide.svg" alt="img" /></span>
+
                                     </Link>
                                 </div>
                                 <div className="brandin-wrap d-block">
                                     <h4 className="white-clr brading-text">
-                                        1k + Brands Trust Us
+                                        80 + Brands Trust Us
                                     </h4>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ export default function Hero1() {
                         </div>
                         <div className="expri-cont-item">
                             <h6 className="white-clr mb-2">
-                                25K+
+                                200+
                             </h6>
                             <span className="yer spantext-clr">
                                 completed projects

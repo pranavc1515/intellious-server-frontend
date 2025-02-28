@@ -7,7 +7,7 @@ export default function VideoPopup({ style }) {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            {style === 1 &&
+            {/* {style === 1 &&
 
                 <a onClick={() => setOpen(true)} className="video-popup">
                     <span className="icon">
@@ -32,7 +32,7 @@ export default function VideoPopup({ style }) {
                 <img src="/assets/img/element/watch-ciricle01.png" alt="img" className="circle" />
             </a>
             }
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} /> */}
         </>
     )
 }
