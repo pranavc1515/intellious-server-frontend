@@ -9,12 +9,10 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                 </div>
                 <div className="sub-contact-wrapper d-grid">
                     <Link href="/" className="side-logo">
-                        <img src="/assets/img/logo/logo.png" alt="img" />
+                        <img src="/assets/img/logo/logo.png" alt="img" style={{ maxWidth: '100%', height: '20px' }} />
                     </Link>
                     <p>
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut
-                        enim
-                        ad minima veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam nihil
+                        A one-stop solution for your business problems, in the most cost-effective way. Our timelines are crisp, yet our quality of deliverables is superlative. We deliver end-to-end innovative solutions and technology services, ranging from ideation to designing and from development to deployment.
                     </p>
                     <div className="sub-contact-left d-grid">
                         <div className="sub__contac-item">
@@ -23,7 +21,10 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     Address
                                 </span>
                                 <span className="textp">
-                                    Loterl Poinent k/ls United Statate.
+                                    WeWork Embassy TechVillage,
+                                    HD-103, Block L,
+                                    Devarabisana Halli, Outer Ring Road,
+                                    Bellandur, Bengaluru, Karnataka 560103
                                 </span>
                             </div>
                         </div>
@@ -33,7 +34,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     Email
                                 </span>
                                 <Link href="/javascript:void(0)" className="textp">
-                                    example021@gmail.com
+                                    contact@intellious.tech
                                 </Link>
                             </div>
                         </div>
@@ -43,7 +44,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                                     Call now
                                 </span>
                                 <Link href="/jasacript:void(0)" className="textp">
-                                    +996 1425 7471 0.2
+                                    +91 80-44451044
                                 </Link>
                             </div>
                         </div>

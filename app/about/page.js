@@ -42,7 +42,7 @@ export default function About() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="About Agency">
+            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="About Intellious">
                 <div>
                     <section className="pt-space pb-space section-bg">
                         <div className="container">
@@ -63,19 +63,20 @@ export default function About() {
                                     <div className="about-samll-content">
                                         <div className="pricing-title">
                                             <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5" data-aos="zoom-in-left" data-aos-duration={1400}>
-                                                ABOUT Intellious
+                                                Who are we
                                             </div>
                                             <h2 className="stitle d-flex align-items-center mb-xxl-8 mb-xl-7 mb-lg-6 mb-5 gap-xxl-7 gap-xl-5 gap-3" data-aos="zoom-in-left" data-aos-duration={1700}>
                                                 <img src="/assets/img/element/arrow-right-storke.png" alt="img" data-aos="zoom-in-up" data-aos-duration={2000} />
-                                                To Create Artistic &amp; Creative Design
+                                                About &amp; us
                                             </h2>
                                             <p className="white-clr mb-xxl-8 mb-xl-8 mb-5" data-aos="zoom-in-up" data-aos-duration={1400}>
-                                                Bring to the table win-win survival strategies to ensure proactive domination. At
-                                                the end of the day, going forward, a
-                                                new normal that has evolved from generation on the runway heading towards a
-                                                streamlined cloud.
+                                                <p className="white-clr mb-xxl-9 mb-xl-7 mb-xl-6 mb-6 leading-relaxed" data-aos="fade-up" data-aos-duration="1900">
+                                                    As a rapidly expanding provider of OSS/BSS (Operational Support Systems/Business Support Systems) solutions, we harness open-source software to craft cutting-edge products. Our team leverages extensive expertise in OSS/BSS, CRM, and Multi Cloud Infrastructure (AWS, OCI & GCP), as well as AI/ML and Mobility, to develop scalable, high-performance enterprise solutions. These solutions are cost-effective and adaptable, ideal for companies seeking innovative IT strategies.
+                                                    <br /><br />
+                                                    Our primary aim is to deliver intelligent solutions tailored to the dynamic needs of our clients. We commit to transparency, maintaining open communication with both team members and clients, aiming to surpass expectations, glean insights from our experiences, and continually advance.
+                                                </p>
                                             </p>
-                                            <div className="result-progress-wrap" data-aos="zoom-in-up" data-aos-duration={1800}>
+                                            {/* <div className="result-progress-wrap" data-aos="zoom-in-up" data-aos-duration={1800}>
                                                 <div className="progres-item mb-xxl-6 mb-xl-5 mb-4">
                                                     <div className="d-flex align-items-center justify-content-between mb-xxl-4 mb-3">
                                                         <span className="conssub">
@@ -98,7 +99,7 @@ export default function About() {
                                                         <div className="progress-bar" />
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +108,7 @@ export default function About() {
                     </section>
                     {/* Cmn About End */}
                     {/* Cmn Team stafs Start */}
-                    <section className="team-staft pt-space pb-space">
+                    {/* <section className="team-staft pt-space pb-space">
                         <div className="team-staft-slidewrap pb-space">
                             <div className="digital-marketing mb-lg-0 mb-10">
                                 <div className="comm">
@@ -466,7 +467,7 @@ export default function About() {
                                 </Tilt>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     {/* Cmn Team stafs End */}
                     {/* Testimonial version2 Start */}
                     <section className="pt-space pb-space bg2-clr">

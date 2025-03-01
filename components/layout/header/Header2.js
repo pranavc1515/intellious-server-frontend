@@ -39,7 +39,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                             </defs>
                                         </svg>
                                         <span className="stext">
-                                            +208-555-0112
+                                            +91 80-44451044
                                         </span>
                                     </Link>
                                     <div className="remove-click remove-clickbg-adding d-center m-auto" onClick={handleSidebar}>

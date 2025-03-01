@@ -4,7 +4,9 @@ export default function Breadcrumb({ breadcrumbTitle }) {
     return (
         <>
 
-            <section className="breadcrumnd-banner position-relative">
+            <section className="breadcrumnd-banner position-relative" style={{
+                backgroundImage: "url('/assets/img/banner/breadcrumnd-bg.png')"
+            }}>
                 <div className="container">
                     <div className="row g-5 justify-content-center">
                         <div className="col-lg-7">

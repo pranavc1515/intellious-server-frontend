@@ -23,24 +23,10 @@ export default function Footer1() {
                                         </svg>
                                     </h5>
                                     <p className="pra-clr mb-xxl-7 mb-6" data-aos="zoom-in" data-aos-duration={1600}>
-                                        Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur
-                                        lacinia mollis
+                                        A one-stop solution for your business problems, in the most cost-effective way. Our timelines are crisp, yet our quality of deliverables is superlative. We deliver end-to-end innovative solutions and technology services, ranging from ideation to designing and from development to deployment.
                                     </p>
                                     <ul className="common-social d-flex align-items-center gap-2">
-                                        <li data-aos="zoom-in-right" data-aos-duration={1400}>
-                                            <Link href="/#" className="d-center">
-                                                <svg width={10} height={16} viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g opacity="0.8" clipPath="url(#clip0_6308_28)">
-                                                        <path d="M8.72266 9L9.16703 6.10437H6.38859V4.22531C6.38859 3.43313 6.77672 2.66094 8.02109 2.66094H9.28422V0.195625C9.28422 0.195625 8.13797 0 7.04203 0C4.75391 0 3.25828 1.38688 3.25828 3.8975V6.10437H0.714844V9H3.25828V16H6.38859V9H8.72266Z" fill="white" />
-                                                    </g>
-                                                    <defs>
-                                                        <clipPath id="clip0_6308_28">
-                                                            <rect width={10} height={16} fill="white" />
-                                                        </clipPath>
-                                                    </defs>
-                                                </svg>
-                                            </Link>
-                                        </li>
+
                                         <li data-aos="zoom-in-right" data-aos-duration={1600}>
                                             <Link href="/#" className="d-center">
                                                 <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,22 +76,7 @@ export default function Footer1() {
                                                 About Intellious
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Our Services
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/blog-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Our Blogs
-                                            </Link>
-                                        </li>
+
                                         <li>
                                             <Link href="/contact" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
@@ -133,35 +104,35 @@ export default function Footer1() {
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=oss-bss" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                UI/UX Experience
+                                                OSS &amp; BSS Solutions
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=salesforce" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                Web Development
+                                                Salesforce Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=multi-cloud" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                Product Design
+                                                Multi Cloud Transformation
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=blockchain" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                SEO Optimization
+                                                Blockchain Solutions
                                             </Link>
                                         </li>
                                     </ul>
@@ -205,7 +176,11 @@ export default function Footer1() {
                     </div>
                     <div className="footer-bottom-version-one d-sm-flex gap-sm-0 gap-4 d-grid align-items-center justify-content-sm-between justify-content-center bg2-clr px-xxl-7 px-6 py-xxl-6 py-xl-6 py-7 mb-xxl-10 mb-lg-9 mb-sm-8 mb-5" data-aos="zoom-in-up" data-aos-duration={1600}>
                         <Link href="/" className="footer-logov1 m-sm-0 m-auto">
-                            <img src="/assets/img/logo/logo.png" alt="img" />
+                            <img
+                                src="/assets/img/logo/logo.png"
+                                alt="img"
+                                style={{ maxWidth: '100%', height: '70px' }}
+                            />
                         </Link>
                         <Link href="/#mains" className="footer-topscroll d-center themebg">
                             <i className="fas fa-arrow-up" />

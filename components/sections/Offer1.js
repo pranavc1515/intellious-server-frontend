@@ -30,7 +30,10 @@ export default function Offer1() {
                             <div className="offer-item d-md-flex d-grid gap-xxl-6 gap-xl-5 gap-lg-4 gap-3 p-xxl-6 p-xl-5 p-4">
                                 <div className="icon-area d-md-grid d-flex justify-content-between mb-md-0 mb-4">
                                     <div className="icon">
-                                        <img src="/assets/img/element/offer1.png" alt="img" />
+                                        <img
+                                            src="/assets/img/element/oss-1536x864.jpg"
+                                            alt="img"
+                                            style={{ width: '100%', height: '70px', objectFit: 'cover' }} />
                                     </div>
                                     <h5 className="seri white-clr d-flex align-items-end">
                                         01
@@ -56,7 +59,10 @@ export default function Offer1() {
                             <div className="offer-item d-md-flex d-grid gap-xxl-6 gap-xl-5 gap-lg-4 gap-3 p-xxl-6 p-xl-5 p-4">
                                 <div className="icon-area d-md-grid d-flex justify-content-between mb-md-0 mb-4">
                                     <div className="icon">
-                                        <img src="/assets/img/element/offer2.png" alt="img" />
+                                        <img
+                                            src="/assets/img/element/Salesforce-1536x1024.jpg"
+                                            alt="img"
+                                            style={{ width: '100%', height: '70px', objectFit: 'cover' }} />
                                     </div>
                                     <h5 className="seri white-clr d-flex align-items-end">
                                         02
@@ -82,7 +88,10 @@ export default function Offer1() {
                             <div className="offer-item d-md-flex d-grid gap-xxl-6 gap-xl-5 gap-lg-4 gap-3 p-xxl-6 p-xl-5 p-4">
                                 <div className="icon-area d-md-grid d-flex justify-content-between mb-md-0 mb-4">
                                     <div className="icon">
-                                        <img src="/assets/img/element/offer3.png" alt="img" />
+                                        <img
+                                            src="/assets/img/element/Multi-Cloud-transformation-1536x1024.jpg"
+                                            alt="img"
+                                            style={{ width: '100%', height: '70px', objectFit: 'cover' }} />
                                     </div>
                                     <h5 className="seri white-clr d-flex align-items-end">
                                         03
@@ -108,7 +117,10 @@ export default function Offer1() {
                             <div className="offer-item d-md-flex d-grid gap-xxl-6 gap-xl-5 gap-lg-4 gap-3 p-xxl-6 p-xl-5 p-4">
                                 <div className="icon-area d-md-grid d-flex justify-content-between mb-md-0 mb-4">
                                     <div className="icon">
-                                        <img src="/assets/img/element/offer4.png" alt="img" />
+                                        <img
+                                            src="/assets/img/element/Blockchain-Solutions-1536x1024.jpg"
+                                            alt="img"
+                                            style={{ width: '100%', height: '70px', objectFit: 'cover' }} />
                                     </div>
                                     <h5 className="seri white-clr d-flex align-items-end">
                                         04
@@ -130,6 +142,7 @@ export default function Offer1() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>

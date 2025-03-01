@@ -45,15 +45,15 @@ export default function Home() {
                     <div className="line-shape cus-z-1 first w-100 h-100 d-flex flex-wrap" />
 
                     <div className="container mb-20">
-                        <div className="footer-client mb-20">
+                        <div className="footer-client mb-20 mb-10">
                             <h5 className="trusted white">
-                                Our Trusted Clients
+                                Our prominent clients are
                             </h5>
                             <div className="swiper trusted-inner">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
+                                            <img src="/assets/img/client/14.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -73,14 +73,13 @@ export default function Home() {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
+                                            <span className="bg-white">
+                                                <img src="/assets/img/client/intm-logo-wide.svg" alt="img" />
+                                            </span>
+
                                         </Link>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
+
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
                                             <img src="/assets/img/client/c2.png" alt="img" />
@@ -96,70 +95,40 @@ export default function Home() {
                                             <img src="/assets/img/client/c4.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
+
                                 </Swiper>
                             </div>
                         </div>
                         <div className="footer-client mb-20">
                             <h5 className="trusted white">
-                                Our Trusted Clients
+                                Partners with us
                             </h5>
                             <div className="swiper trusted-inner">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
+                                            <img src="/assets/img/client/salesforce-with-type-logo.svg" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/client/WhatsApp-Image-2024-11-26-at-15.34.05.jpeg" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c3.png" alt="img" />
+                                            <img src="/assets/img/client/11.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c4.png" alt="img" />
+                                            <span className="bg-white">
+                                                <img src="/assets/img/client/Cyient-logo.webp" alt="img" />
+                                            </span>
+
                                         </Link>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c3.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c4.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
+
                                 </Swiper>
                             </div>
                         </div>

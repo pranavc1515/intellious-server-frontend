@@ -31,8 +31,7 @@ export default function Footer3() {
                                         </svg>
                                     </h5>
                                     <p className="pra-clr mb-xxl-7 mb-6" data-aos="zoom-in" data-aos-duration={1600}>
-                                        Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur
-                                        lacinia mollis
+                                        A one-stop solution for your business problems, in the most cost-effective way. Our timelines are crisp, yet our quality of deliverables is superlative. We deliver end-to-end innovative solutions and technology services, ranging from ideation to designing and from development to deployment.
                                     </p>
                                     <ul className="common-social d-flex align-items-center gap-2">
                                         <li data-aos="zoom-in-right" data-aos-duration={1400}>
@@ -98,22 +97,7 @@ export default function Footer3() {
                                                 About Intellious
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Our Services
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/blog-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Our Blogs
-                                            </Link>
-                                        </li>
+
                                         <li>
                                             <Link href="/contact" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
@@ -141,35 +125,35 @@ export default function Footer3() {
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=oss-bss" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                UI/UX Experience
+                                                OSS &amp; BSS Solutions
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=salesforce" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                Web Development
+                                                Salesforce Development
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=multi-cloud" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                Product Design
+                                                Multi Cloud Transformation
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/service-details?id=blockchain" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
-                                                SEO Optimization
+                                                Blockchain Solutions
                                             </Link>
                                         </li>
                                     </ul>

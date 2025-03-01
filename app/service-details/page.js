@@ -37,10 +37,10 @@ const services = [
             { "name": "Process Automation", "percentage": 88 }
         ],
         "images": [
-            "https://via.placeholder.com/600x400",
-            "https://via.placeholder.com/600x400"
+            "/assets/img/service/project-slide2.jpg",
+            "/assets/img/service/project-slide2.jpg"
         ],
-        "headerImage": "https://via.placeholder.com/1200x600"
+        "headerImage": "/assets/img/service/project-slide2.jpg"
     },
 
     {
@@ -71,10 +71,15 @@ const services = [
             { "name": "Platform Integration", "percentage": 94 }
         ],
         "images": [
-            "https://via.placeholder.com/600x400",
-            "https://via.placeholder.com/600x400"
+            "/assets/img/service/salesforce/img1-min.jpg",
+            "/assets/img/service/salesforce/img2-min.jpg",
+            "/assets/img/service/salesforce/img3-min.jpg",
+            "/assets/img/service/salesforce/img4-min.jpg",
+            "/assets/img/service/salesforce/img5-min.jpg",
+            "/assets/img/service/salesforce/img7-min.jpg",
+
         ],
-        "headerImage": "https://via.placeholder.com/1200x600"
+        "headerImage": "/assets/img/service/salesforce/team-developers-doing-brainstorming-optimizing-code.jpg"
     },
 
     {
@@ -106,10 +111,10 @@ const services = [
             { "name": "Performance Optimization", "percentage": 90 }
         ],
         "images": [
-            "https://via.placeholder.com/600x400",
-            "https://via.placeholder.com/600x400"
+            "/assets/img/service/project-slide2.jpg",
+            "/assets/img/service/project-slide2.jpg"
         ],
-        "headerImage": "https://via.placeholder.com/1200x600"
+        "headerImage": "/assets/img/service/project-slide2.jpg"
     },
     {
         "id": "blockchain",
@@ -139,10 +144,17 @@ const services = [
             { "name": "Security Implementation", "percentage": 98 }
         ],
         "images": [
-            "https://via.placeholder.com/600x400",
-            "https://via.placeholder.com/600x400"
+            "/assets/img/service/blogchain/img1-min.jpg",
+            "/assets/img/service/blogchain/img2-min.jpg",
+            "/assets/img/service/blogchain/img3-min.jpg",
+            "/assets/img/service/blogchain/img4-min.jpg",
+            "/assets/img/service/blogchain/img5-min.jpg",
+            "/assets/img/service/blogchain/img7-min.jpg",
+            "/assets/img/service/blogchain/img8-min.jpg",
+            "/assets/img/service/blogchain/img9-min.jpg",
+
         ],
-        "headerImage": "https://via.placeholder.com/1200x600"
+        "headerImage": "/assets/img/service/blogchain/img6-min.jpg"
     }
 
 ]
@@ -195,8 +207,14 @@ export default function ServiceDetails() {
                     <div className="container">
                         <div className="service-details-header bb-border pb-xxl-9 pb-xl-7 pb-6">
                             <div className="thumb w-100 mb-xxl-12 mb-xl-9 mb-sm-6 mb-5" data-aos="zoom-in" data-aos-duration={1500}>
-                                <img src={service.headerImage} alt={service.title} className="w-100" />
+                                <img
+                                    src={service.headerImage}
+                                    alt={service.title}
+                                    className="w-100"
+                                    style={{ height: '600px', objectFit: 'cover' }}
+                                />
                             </div>
+
                             <h3 className="white-clr mb-xxl-9 mb-xl-7 mb-lg-6 mb-4" data-aos="zoom-in-left" data-aos-duration={1600}>
                                 {service.title}
                             </h3>
@@ -259,12 +277,18 @@ export default function ServiceDetails() {
                                 {service.images.map((image, index) => (
                                     <SwiperSlide key={index}>
                                         <div className="study-thumb-slide w-100">
-                                            <img src={image} alt={`${service.title} slide ${index + 1}`} className="w-100" />
+                                            <img
+                                                src={image}
+                                                alt={`${service.title} slide ${index + 1}`}
+                                                className="w-100"
+                                                style={{ height: '700px', objectFit: 'cover' }}
+                                            />
                                         </div>
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
+
                         <div className="slider-button d-flex align-items-center justify-content-between py-xxl-6 py-xl-5 py-4">
                             <div className="d-flex align-items-center gap-xxl-5 gap-3 gap-2">
                                 <Link href={`/service-details?id=${prevService.id}`} className="d-flex align-items-center gap-3">

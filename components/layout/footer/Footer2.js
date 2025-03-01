@@ -43,22 +43,7 @@ export default function Footer2() {
                                                         About Intellious
                                                     </Link>
                                                 </li>
-                                                <li>
-                                                    <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                        <span className="ani-icons">
-                                                            <i className="fas fa-angle-double-right pra-clr" />
-                                                        </span>
-                                                        Our Services
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/blog-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                        <span className="ani-icons">
-                                                            <i className="fas fa-angle-double-right pra-clr" />
-                                                        </span>
-                                                        Our Blogs
-                                                    </Link>
-                                                </li>
+
                                                 <li>
                                                     <Link href="/contact" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">

@@ -1206,12 +1206,26 @@ footer {
 }
 
 .hero-section-version1 {
-  background: url(../img/banner/hero-bg1.jpg) no-repeat center center;
+  /* background: url(../img/banner/hero-bg1.png) no-repeat center center; */
   background-size: cover;
   padding: 290px 5px 30px;
   z-index: 1;
 }
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1; /* So it's behind text/content */
+}
 
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image covers the entire area */
+}
 .hero-section-version1 .hero-arrow {
   position: absolute;
   left: 24px;
@@ -4451,10 +4465,26 @@ input.main-search-input::placeholder {
 }
 
 .watch-version01 {
-  background: url(../img/team/watch-bg01.png) no-repeat center center !important;
+  /* background: url(../img/team/watch-bg01.png) no-repeat center center !important; */
   background-size: cover;
   padding: 300px 5px;
   background-attachment: fixed;
+  .watch-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .watch-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+  }
 }
 
 .watch-version01 .video-popup .icons {

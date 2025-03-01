@@ -17,14 +17,12 @@ export default function Contact() {
                                         <path d="M46.4242 16.4252L37.5742 7.5752" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                     <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                        Phone &amp; Fax
+                                        Phone
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : +197 -90 - 56 - 780
+                                        +91 80-44451044
                                     </span>
-                                    <span className="msub">
-                                        Fax : +44-208-1234567
-                                    </span>
+
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1600}>
@@ -36,10 +34,27 @@ export default function Contact() {
                                         Mail Address
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Info.company@gmail.com
+                                        contact@intellious.tech
+                                    </span>
+
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={1800}>
+                                <div className="contact-sub-info bg1-clr text-center">
+                                    <svg width={38} height={50} viewBox="0 0 38 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M19.1781 -0.0175781C8.92969 -0.0175781 0.25 8.71211 0.25 19.0512C0.25 29.8793 10.3109 40.9527 17.0781 48.7355C17.1047 48.7668 18.1984 49.9809 19.5453 49.9809H19.6641C21.0125 49.9809 22.0984 48.7668 22.125 48.7355C28.475 41.4355 37.75 29.3965 37.75 19.0512C37.75 8.71055 30.9797 -0.0175781 19.1781 -0.0175781ZM19.8047 46.6387C19.75 46.6934 19.6703 46.7543 19.6 46.8059C19.5281 46.7559 19.45 46.6934 19.3922 46.6387L18.575 45.698C12.1594 38.3387 3.37344 28.259 3.37344 19.0496C3.37344 10.4059 10.6109 3.1043 19.1766 3.1043C29.8469 3.1043 34.6234 11.1121 34.6234 19.0496C34.6234 26.0402 29.6375 35.3246 19.8047 46.6387ZM19.0547 9.44336C13.8781 9.44336 9.67969 13.6402 9.67969 18.8184C9.67969 23.9965 13.8781 28.1934 19.0547 28.1934C24.2312 28.1934 28.4297 23.9949 28.4297 18.8184C28.4297 13.6418 24.2328 9.44336 19.0547 9.44336ZM19.0547 25.0684C15.6078 25.0684 12.7328 22.1965 12.7328 18.7496C12.7328 15.3027 15.5359 12.4996 18.9828 12.4996C22.4312 12.4996 25.2328 15.3027 25.2328 18.7496C25.2344 22.1965 22.5031 25.0684 19.0547 25.0684Z" fill="#E3FF04" />
+                                    </svg>
+                                    <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
+                                        USA OFFICE
+                                    </h5>
+                                    <span className="msub d-block mb-2">
+                                        401 E Sonterra Blvd,
+                                        Suite 375,
+
                                     </span>
                                     <span className="msub">
-                                        Info.company@yahoo.com
+                                        San Antonio, Texas 78258.
+                                        USA
                                     </span>
                                 </div>
                             </div>
@@ -49,39 +64,40 @@ export default function Contact() {
                                         <path d="M19.1781 -0.0175781C8.92969 -0.0175781 0.25 8.71211 0.25 19.0512C0.25 29.8793 10.3109 40.9527 17.0781 48.7355C17.1047 48.7668 18.1984 49.9809 19.5453 49.9809H19.6641C21.0125 49.9809 22.0984 48.7668 22.125 48.7355C28.475 41.4355 37.75 29.3965 37.75 19.0512C37.75 8.71055 30.9797 -0.0175781 19.1781 -0.0175781ZM19.8047 46.6387C19.75 46.6934 19.6703 46.7543 19.6 46.8059C19.5281 46.7559 19.45 46.6934 19.3922 46.6387L18.575 45.698C12.1594 38.3387 3.37344 28.259 3.37344 19.0496C3.37344 10.4059 10.6109 3.1043 19.1766 3.1043C29.8469 3.1043 34.6234 11.1121 34.6234 19.0496C34.6234 26.0402 29.6375 35.3246 19.8047 46.6387ZM19.0547 9.44336C13.8781 9.44336 9.67969 13.6402 9.67969 18.8184C9.67969 23.9965 13.8781 28.1934 19.0547 28.1934C24.2312 28.1934 28.4297 23.9949 28.4297 18.8184C28.4297 13.6418 24.2328 9.44336 19.0547 9.44336ZM19.0547 25.0684C15.6078 25.0684 12.7328 22.1965 12.7328 18.7496C12.7328 15.3027 15.5359 12.4996 18.9828 12.4996C22.4312 12.4996 25.2328 15.3027 25.2328 18.7496C25.2344 22.1965 22.5031 25.0684 19.0547 25.0684Z" fill="#E3FF04" />
                                     </svg>
                                     <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                        Our Location
+                                        India Office
                                     </h5>
                                     <span className="msub d-block mb-2">
-                                        Mobile : 85 Ketch Harbour
+                                        WeWork Embassy TechVillage,
+                                        HD-103, Block L,
+                                        Devarabisana Halli, Outer Ring Road,
+                                        Bellandur, Bengaluru, Karnataka 560103
                                     </span>
                                     <span className="msub">
-                                        RoadBensalem, PA 19020
+                                        AS Arcade, Outer Ring Road, Sector 5 HSR Layout,
+                                        Bengaluru, Karnataka 560102
                                     </span>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right" data-aos-duration={2000}>
-                                <div className="contact-sub-info bg1-clr text-center">
-                                    <svg width={54} height={54} viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M27 13.1111V27H40.8889M27 52C13.1929 52 2 40.8072 2 27C2 13.1929 13.1929 2 27 2C40.8072 2 52 13.1929 52 27C52 40.8072 40.8072 52 27 52Z" stroke="#E3FF04" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                    <h5 className="white mt-xxl-7 mt-6 mb-xxl-7 mb-6">
-                                        Office Hour
-                                    </h5>
-                                    <span className="msub d-block mb-2">
-                                        Sun - Thu 09 am - 06pm
-                                    </span>
-                                    <span className="msub">
-                                        Fri - Sat 4 pm - 10pm
-                                    </span>
-                                </div>
-                            </div>
+
                         </div>
                         <div className="row g-xxl-7 g-4">
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>
                                 <div className="contact-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52816169.558200695!2d-161.49265223136007!3d36.102185713814805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1711689726724!5m2!1sen!2sbd" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                    <iframe
+                                        src="https://www.google.com/maps?q=WeWork+Embassy+TechVillage,+BLOCK-L,+Embassy+TechVillage,+Outer+Ring+Rd,+Devarabisanahalli,+Bellandur,+Bengaluru,+Karnataka+560103&z=16&t=m&hl=en&gl=IN&output=embed"
+                                        width="100%"
+                                        height="450"
+                                        frameBorder="0"
+                                        style={{ border: 0 }}
+                                        allowFullScreen=""
+                                        aria-hidden="false"
+                                        tabIndex="0"
+                                    />
                                 </div>
                             </div>
+
+
+
                             <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={2000}>
                                 <div className="contact-content bg1-clr">
                                     <h3 className="white mb-xxl-15 mb-xl-10 mb-lg-7 mb-5">

@@ -23,13 +23,15 @@ export default function Home() {
                     <Product1 />
                     <Service1 />
                     <TextSLider1 />
-                    <CaseStudy1 />
-                    <Watch1 />
-                    <Team1 />
+                    <Offer1 />
+
+                    {/* <CaseStudy1 /> */}
+                    {/* <Watch1 /> */}
+                    {/* <Team1 /> */}
                     <TextSLider2 />
                     <Testimonial1 />
-                    <Offer1 />
-                    <Blog1 />
+
+                    {/* <Blog1 /> */}
                     <TextSLider3 />
                 </div>
             </Layout>
