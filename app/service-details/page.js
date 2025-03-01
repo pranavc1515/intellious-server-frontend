@@ -37,10 +37,13 @@ const services = [
             { "name": "Process Automation", "percentage": 88 }
         ],
         "images": [
-            "/assets/img/service/project-slide2.jpg",
-            "/assets/img/service/project-slide2.jpg"
+            "/assets/img/service/os/img1-min.jpg",
+            "/assets/img/service/os/img2-min.jpg",
+            "/assets/img/service/os/img3-min.jpg",
+            "/assets/img/service/os/img4-min.jpg",
+
         ],
-        "headerImage": "/assets/img/service/project-slide2.jpg"
+        "headerImage": "/assets/img/service/os/img5-min.jpg"
     },
 
     {
@@ -111,10 +114,12 @@ const services = [
             { "name": "Performance Optimization", "percentage": 90 }
         ],
         "images": [
-            "/assets/img/service/project-slide2.jpg",
-            "/assets/img/service/project-slide2.jpg"
+            "/assets/img/service/cloud/img1-min.jpg",
+            "/assets/img/service/cloud/img3-min.jpg",
+            "/assets/img/service/cloud/img4-min.jpg",
+            "/assets/img/service/cloud/img5-min.jpg",
         ],
-        "headerImage": "/assets/img/service/project-slide2.jpg"
+        "headerImage": "/assets/img/service/cloud/img2-min.jpg"
     },
     {
         "id": "blockchain",
@@ -281,7 +286,7 @@ export default function ServiceDetails() {
                                                 src={image}
                                                 alt={`${service.title} slide ${index + 1}`}
                                                 className="w-100"
-                                                style={{ height: '700px', objectFit: 'cover' }}
+                                                style={{ height: 'auto', objectFit: 'cover' }}
                                             />
                                         </div>
                                     </SwiperSlide>
