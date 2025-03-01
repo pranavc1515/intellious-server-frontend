@@ -14,6 +14,9 @@ export default function Menu() {
         }
         if (key === 3) {
             router.push('/clients');
+        }
+        if (key === 5) {
+            router.push('/team');
         } else {
             setIsAccordion(prevState => prevState === key ? null : key);
         }
